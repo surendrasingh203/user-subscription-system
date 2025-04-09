@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+
 
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
@@ -27,7 +27,7 @@ use Cake\Controller\Controller;
  * @link https://book.cakephp.org/5/en/controllers.html#the-app-controller
  */
 class AppController extends Controller
-{
+{ 
     /**
      * Initialization hook method.
      *
