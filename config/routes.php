@@ -63,6 +63,7 @@ return function (RouteBuilder $routes): void {
         $builder->connect('/users/login', ['controller' => 'Users', 'action' => 'login']);
         $builder->connect('/users/register/{planid}', ['controller' => 'Users', 'action' => 'regsiter']);
         $builder->connect('/users/list', ['controller' => 'Users', 'action' => 'list']);
+        $builder->connect('/logout', ['controller' => 'Users', 'action' => 'logout']);
         /*
          * Connect catchall routes for all controllers.
          *

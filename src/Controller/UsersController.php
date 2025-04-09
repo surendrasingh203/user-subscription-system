@@ -68,4 +68,12 @@ class UsersController extends AppController
   
       $this->set(compact('user', 'planId'));
   }
+ 
+   public function logout()
+    {
+      localStorage.removeItem('token');
+      return $this->redirect('users/login');
+    }
+
+
 }
